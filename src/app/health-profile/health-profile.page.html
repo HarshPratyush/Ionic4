@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      My Health
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button [routerDirection]="'root'" [routerLink]="'/profile'"><ion-icon name="contact"
+         ></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+Health Profile
+  <ion-card>
+
+      <ion-card-content>
+          <ion-card-title>
+            Last Updated Date - 00:57
+          </ion-card-title>
+          <p>
+           This test was done by Dr.Pankaj at AIIMS Bhubaneswar
+          </p>
+        </ion-card-content>
+
+
+<ion-item>
+  <!--    <ion-icon name='information-circle' item-start style="color: #d03e84"></ion-icon> --> 
+  Blood Pressure <ion-badge color="primary" slot="end">11</ion-badge></ion-item>
+
+
+    <ion-item> 
+       <!-- <ion-icon name='information-circle' item-start style="color: #d03e84"></ion-icon> -->
+  Weight <ion-badge color="secondary" slot="end">22</ion-badge></ion-item>
+
+<ion-item>
+      <!-- <ion-icon name='information-circle' item-start style="color: #d03e84"></ion-icon> -->
+  Sugar Level <ion-badge color="tertiary" slot="end">33</ion-badge></ion-item>
+  
+<ion-item>
+      <!-- <ion-icon name='information-circle' item-start style="color: #d03e84"></ion-icon> -->
+  Heart Risk<ion-badge color="success" slot="end">Low</ion-badge></ion-item>
+
+
+<ion-item>
+      <!-- <ion-icon name='information-circle' item-start style="color: #d03e84"></ion-icon> -->
+  Liver Risk<ion-badge color="warning" slot="end">55</ion-badge></ion-item>
+
+<ion-item>
+      <!-- <ion-icon name='information-circle' item-start style="color: #d03e84"></ion-icon> -->
+  Hemoglobin <ion-badge color="danger" slot="end">66</ion-badge></ion-item>
+  
+</ion-card>
+</ion-content>
